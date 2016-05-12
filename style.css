@@ -25,6 +25,17 @@ element {
 }
 */
 
+img, embed, object, video {
+
+  /* to avoid overflow */
+  max-width: 100%; 
+
+}
+a, nav, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+
 hr {
     color: #BCBBBB;
     background-color: #BCBBBB;
@@ -59,12 +70,12 @@ img.sample-image {
     font-weight: 100;
 
     color: #BCBBBB;
-    //color: var(--mid-color);
+    
 }
 
 .sample-info {
     color: #747704;
-  //  color: var(--bottom-color);
+  
 }
 
 .big-middle-image {
